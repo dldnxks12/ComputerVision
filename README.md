@@ -1,1 +1,1 @@
-# Python_OpenCV
+### 언제든지 사용할 수 있도록 OpenCV 주요 Code 들을 기록합니다.
