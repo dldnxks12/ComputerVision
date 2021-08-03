@@ -29,8 +29,8 @@ def print_matInfo(name, Image): # Matrix data type
 
 title1 = 'gray'
 title2 = 'color'
-gray = cv2.imread("OpenCV\CV_Image_Video\gy.jpg", cv2.IMREAD_GRAYSCALE)
-color = cv2.imread("OpenCV\CV_Image_Video\gy.jpg", cv2.IMREAD_COLOR)
+gray = cv2.imread("OpenCV/CV_Image_Video/1.jpg", cv2.IMREAD_GRAYSCALE)
+color = cv2.imread("OpenCV/CV_Image_Video/1.jpg", cv2.IMREAD_COLOR)
 
 
 if gray is None or color is None:

@@ -11,9 +11,9 @@ if image is None:
 param_jpg = [cv2.IMWRITE_JPEG_QUALITY, 10]   # JPEG 화질
 param_png = [cv2.IMWRITE_PNG_COMPRESSION, 9] # PNG 압축
 
-cv2.imwrite("OpenCV/CV_Image_Video/test1.jpg", image)
+cv2.imwrite("OpenCV/CV_Image_Video/test1.jpg", image) # default로 95로 설정된 화질의 이미지로 저장
 cv2.imwrite("OpenCV/CV_Image_Video/test2.jpg", image, param_jpg)
-cv2.imwrite("OpenCV/CV_Image_Video/test3.png", image, param_png)
+cv2.imwrite("OpenCV/CV_Image_Video/test3.png", image, param_png) # 압축된 PNG 이미지 
 cv2.imwrite("OpenCV/CV_Image_Video/test4.bmp", image) # bmp file -> raw file 처럼 용량이 매우 큼
 
 print("이미지 저장 완료")
