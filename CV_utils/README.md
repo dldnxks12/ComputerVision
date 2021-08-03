@@ -6,8 +6,9 @@ for using utility functions  ...
 
     - use function as [function]
 or 
+
 ----> import CV_utils 
 
-    - - use function as CV_utils.[function]
+    - use function as CV_utils.[function]
 
     
