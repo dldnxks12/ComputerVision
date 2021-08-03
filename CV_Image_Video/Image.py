@@ -1,8 +1,6 @@
-import cv2
-
-
 # imread  : 이미지 불러오기 (numpy arr)
-# imwrite : 이미지 저장하기 (numpy arr)
+
+import cv2
 
 def print_matInfo(name, Image): # Matrix data type
 
