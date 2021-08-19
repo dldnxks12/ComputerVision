@@ -1,13 +1,15 @@
 #### cv utility folder
 
-for using utility functions  ...
+- for utility 
 
-----> from CV_utils.utils import [function] 
+---
+
+from CV_utils.utils import [function] 
 
     - use function as [function]
 or 
 
-----> import CV_utils 
+import CV_utils 
 
     - use function as CV_utils.[function]
 
