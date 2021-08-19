@@ -1,5 +1,7 @@
 #### OpenCV에서 제공하는 통계 관련 함수
 
+---
+
 1. 배열의 각 Channel 별로 원소들을 합해서 return 
 
         cv2.sumElems(src) -> retval
